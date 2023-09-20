@@ -1,0 +1,117 @@
+body{margin:0px;
+padding: 0px;
+font-family:'century gothic' ,'calibri' ,'serif';
+font-size:13px;
+}
+header{background-image: url(imgs/wallpaperbetter.com_7680x4320.jpg);
+
+}
+h1{font-size:40px;
+font-weight: normal;
+text-align:center;
+}
+.nom{ color: #aaa;
+
+}
+header{
+    height:100px;
+}
+footer{
+    height:80px;
+    padding-top:30px;
+    text-align:center;
+    background-color: #c5c5c5;
+    border-top:2px solid #aaa;
+}
+nav{ width:100%;
+    background-color:rgba(9, 59, 240, 0.9);
+}
+nav ul{
+    padding:0px;
+    margin:0px;
+}
+nav li{
+    list-style-type:none;
+    float:left;
+}
+nav a{display:inline-block;
+text-decoration:none;
+color:#aaa;
+text-transform:uppercase;
+font-size:15px;
+padding:20px 30px;
+}
+.table{display: table;
+margin:0 auto;
+}
+.menu-ind:hover{border-top:3px solid #4c8;
+    background-color: rgba(8, 251, 134, 0.15);
+}
+.menu-exp:hover{border-top:3px solid yellow;
+    background-color: rgba(229, 250, 4, 0.288);
+}
+.menu-hob:hover{border-top:3px solid brown;
+    background-color: rgba(251, 97, 8, 0.15);
+}
+.menu-contact:hover{border-top:3px solid blue;
+    background-color: rgba(13, 0, 253, 0.15);
+}
+nav li:hover a{padding:17px 30px 20px 30px;
+}
+@media screen and (max-width:780px){
+    header{height:50px;
+    }
+    h1{font-size:28px;
+     margin:20px 0px 0px 0px;
+    }
+   nav li a{ font-size: 12px;
+padding:10px;
+}
+nav li:hover a{padding:5px 10px 10px 10px;
+}
+}
+section{
+    width:100%;
+    min-height:400px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+.sec1{
+    border: 1px solid black;
+    background: linear-gradient(45deg,#FC4668,#3F5EFB);
+}
+.sec2{
+    border: 1px solid black;
+    background:linear-gradient(45deg,#3F5EFB,#4c8);
+    min-height: 500px;
+}
+.sec3{
+    border: 1px solid black;
+    background:linear-gradient(45deg,#f30909,#bee70a);
+}
+.left{width:50%;
+float:left;
+font-size:25px;
+}
+.right{width:50%;
+    float:right;
+text-align: left;}
+img{height:200px;
+border:1px solid black;
+margin-left:10px;
+}
+p{font-size: 20px;
+font-family:'Arial Narrow', Arial, sans-serif;}
+td{font-size: 20px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+h2{font-weight: bold;
+}
+table{  border-collapse: collapse;
+    margin-left: 500px;
+}
+td{border: 2px solid black;
+}
+.hob{text-align: center;
+    font-size:x-large;
+}
